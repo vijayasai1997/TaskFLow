@@ -1,0 +1,58 @@
+.projects-container {
+  padding: 20px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.new-project-btn {
+  padding: 10px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-project-btn:hover {
+  background: #5568d3;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #718096;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.action-btn.delete {
+  background: transparent;
+  color: #94a3b8;
+  padding: 4px 8px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-btn.delete:hover {
+  color: #ef4444;
+}
